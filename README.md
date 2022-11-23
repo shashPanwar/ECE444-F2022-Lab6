@@ -1,5 +1,5 @@
 ## Original Repo
-This Repo is a clone of (flaskr-tdd)[https://github.com/mjhea0/flaskr-tdd].
+This Repo is a clone of [flaskr-tdd](https://github.com/mjhea0/flaskr-tdd).
 
 # Flaskr - Intro to Flask, Test-Driven Development, and JavaScript
 
