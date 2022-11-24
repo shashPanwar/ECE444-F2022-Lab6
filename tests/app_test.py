@@ -34,9 +34,12 @@ def logout(client):
     return client.get("/logout", follow_redirects=True)
 
 
-def test_index(client):
-    response = client.get("/", content_type="html/text")
+def test_index():
+    tester = app.test_client()
+    response = tester.get("/", content_type="html/text")
+
     assert response.status_code == 200
+    assert response.data == b"Hello, World!"
 
 
 def test_database(client):
