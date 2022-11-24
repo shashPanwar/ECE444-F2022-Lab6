@@ -1,6 +1,20 @@
 ## Original Repo
 This Repo is a clone of [flaskr-tdd](https://github.com/mjhea0/flaskr-tdd).
 
+## Source code test functions
+https://github.com/ECE444-2022Fall/project-1-web-application-design-education-pathways-group-11-swat/blob/main/Education_Pathways/tests/test_app.py#L60-L77
+
+## Pros of TDD
+* Forces code to be modular because tests are usually written for small things
+* Allows for better documentation as you discover areas of error sequentially
+* Makes overall code easier to maintain and also easier to refactor
+* Trivial errors are caught faster and do not take up time during the QA process
+
+## Cons of TDD
+* Larger projects requires lots of unit testing and it can get time-consuming
+* Beyond unit testing, writing more intricate tests are likely to slow down initial development
+* Maintaining of tests can prove to be tricky as code can change drastically depending on the scale and modularity of the project
+
 # Flaskr - Intro to Flask, Test-Driven Development, and JavaScript
 
 [![Build Status](https://travis-ci.org/mjhea0/flaskr-tdd.svg?branch=master)](https://travis-ci.org/mjhea0/flaskr-tdd)
