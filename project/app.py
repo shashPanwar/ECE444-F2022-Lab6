@@ -59,6 +59,10 @@ def index():
     entries = db.session.query(models.Post)
     return render_template("index.html", entries=entries)
 
+@app.route("/")
+def hello():
+    return "Hello, World!"
+
 
 @app.route("/add", methods=["POST"])
 def add_entry():
